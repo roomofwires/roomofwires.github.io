@@ -1,0 +1,50 @@
+html {
+  height: 100%;
+}
+
+body {
+  background: url('../img/full_bg.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  height: 100%;
+}
+
+@font-face {
+  font-family: 'brutal_typeblack';
+  src: url('../fonts/brutal_type_black-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.brutal-gold {
+  color: #fdd835;
+  font-family: 'brutal_typeblack';
+  text-align: center;
+  margin-bottom: 0;
+}
+
+h1.brutal-gold {
+  font-size: 1.8em;
+}
+
+h3.brutal-gold {
+  font-size: 1.0em;
+  opacity: 0.75;
+  margin-top: 0.25em;
+  margin-bottom: 1.0em;
+}
+
+p.brutal-gold {
+  opacity: 0.5;
+}
+
+a {
+  color: #fdd835;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #181816;
+}
