@@ -35,8 +35,12 @@ a:hover {
 .card {
   height: 100%;
   background-color: #181816;
-  font-size: 0.75em;
+  font-size: 0.7em;
   border: 0;
+}
+
+.card-body {
+  padding: 0.75rem;
 }
 
 .card-text {
@@ -44,7 +48,7 @@ a:hover {
 }
 
 .col-lg-3 .card-img-top {
-  height: 254px;
+  height: 226px;
   object-fit: cover;
 }
 
