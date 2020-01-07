@@ -43,8 +43,13 @@
 
     <!-- Jumbotron background image -->
     <script type="text/javascript">
-      jQuery(document).ready(function() {
-        jQuery('.jumbotron').css({'background-image': 'linear-gradient(rgba(0,0,0,0.25), rgba(0,0,0,0.25)), url(img/jumbo.jpg)'});
+      $(document).ready(function() {
+        $('.jumbotron').css({'background-image': 'linear-gradient(rgba(0,0,0,0.25), rgba(0,0,0,0.25)), url(img/jumbo.jpg)'});
+        $('.jumbotron').mousemove(function(e) {
+          var amountMovedX = (e.pageX * -1/50);
+          var amountMovedY = (e.pageY * -1/50);
+          $(this).css('background-position', amountMovedX + 'px ' + amountMovedY + 'px');
+        });
       });
     </script>
 
@@ -136,10 +141,44 @@
                 <strong><a href="https://roomofwires.bandcamp.com" target="_blank">Bandcamp</a></strong> and
                 <strong><a href="https://soundcloud.com/roomofwires" target="_blank">SoundCloud</a></strong>.
               </p>
-              <p><img class="card-img-top" src="img/RoW1glitch.jpg"></p>
-              <p><img class="card-img-top" src="img/RoW_Max_glitch3.jpg"></p>
             </div>
           </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4">
+          <img class="card-img-top inside-image" src="img/RoW1glitch.jpg">
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4">
+          <img class="card-img-top inside-image" src="img/RoW_Max_glitch3.jpg">
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4">
+          <img class="card-img-top inside-image" src="img/dreadbox.jpg">
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4">
+          <img class="card-img-top inside-image" src="img/max_demo.jpg">
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4">
+          <img class="card-img-top inside-image" src="img/modular_frontal.jpg">
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4">
+          <img class="card-img-top inside-image" src="img/pedal.jpg">
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4">
+          <img class="card-img-top inside-image" src="img/vcv_versus.jpg">
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4">
+          <img class="card-img-top inside-image" src="img/modular_glitch.jpg">
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4">
+          <img class="card-img-top inside-image" src="img/rack.jpg">
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4">
+          <img class="card-img-top inside-image" src="img/PX7glitch_n.jpg">
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4">
+          <img class="card-img-top inside-image" src="img/modular_side.jpg">
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4">
+          <img class="card-img-top inside-image" src="img/maxforlive.jpg">
         </div>
 
       </div>

@@ -43,8 +43,13 @@
 
     <!-- Jumbotron background image -->
     <script type="text/javascript">
-      jQuery(document).ready(function() {
-        jQuery('.jumbotron').css({'background-image': 'linear-gradient(rgba(0,0,0,0.25), rgba(0,0,0,0.25)), url(img/jumbo.jpg)'});
+      $(document).ready(function() {
+        $('.jumbotron').css({'background-image': 'linear-gradient(rgba(0,0,0,0.25), rgba(0,0,0,0.25)), url(img/jumbo.jpg)'});
+        $('.jumbotron').mousemove(function(e) {
+          var amountMovedX = (e.pageX * -1/50);
+          var amountMovedY = (e.pageY * -1/50);
+          $(this).css('background-position', amountMovedX + 'px ' + amountMovedY + 'px');
+        });
       });
     </script>
 

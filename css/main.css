@@ -52,12 +52,17 @@ a:hover {
   object-fit: cover;
 }
 
+.inside-image {
+  height: 256px;
+  object-fit: cover;
+}
+
 .inside-text {
   width: 75%;
   margin: 0 auto;
-  padding-top: 10pt;
-  padding-bottom: 25pt;
-  font-size: 1.25em;
+  padding-top: 0pt;
+  padding-bottom: 5pt;
+  font-size: 1.15em;
 }
 
 .jumbotron {
