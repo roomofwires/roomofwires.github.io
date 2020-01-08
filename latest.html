@@ -41,17 +41,8 @@
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-    <!-- Jumbotron background image -->
-    <script type="text/javascript">
-      $(document).ready(function() {
-        $('.jumbotron').css({'background-image': 'linear-gradient(rgba(0,0,0,0.25), rgba(0,0,0,0.25)), url(img/jumbo.jpg)'});
-        $('.jumbotron').mousemove(function(e) {
-          var amountMovedX = (e.pageX * -1/50);
-          var amountMovedY = (e.pageY * -1/50);
-          $(this).css('background-position', amountMovedX + 'px ' + amountMovedY + 'px');
-        });
-      });
-    </script>
+    <!-- Custom JavaScript -->
+    <script src="js/jumbotron.js"></script>
 
   </head>
 
