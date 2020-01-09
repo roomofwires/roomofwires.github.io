@@ -6,8 +6,8 @@ $(document).ready(function() {
 
   // Zoom jumbotron background image on mouseover
   $('.jumbotron').mouseenter(function(e) {
-    $(this).animate({'background-size': '120%'}, 500, function() {
-      $(this).animate({'background-size': '100%'}, 500);
+    $(this).animate({'opacity': 0.5}, 250, function() {
+      $(this).animate({'opacity': 1.0}, 1000);
     });
   });
 });
