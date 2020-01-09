@@ -69,7 +69,7 @@ a:hover {
   position: relative;
   background-color: #181816;
   background-size: 100%;
-  background-position: center;
+  background-position: cover;
   height: 380px;
   color: #fdd835;
   font-family: 'brutal_typeblack';
