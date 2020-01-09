@@ -37,6 +37,7 @@ a:hover {
   background-color: #181816;
   font-size: 0.7em;
   border: 0;
+  overflow: hidden;
 }
 
 .card-body {
