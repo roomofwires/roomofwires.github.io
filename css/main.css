@@ -68,8 +68,8 @@ a:hover {
 .jumbotron {
   position: relative;
   background-color: #181816;
-  background-size: 100%;
-  background-position: cover;
+  background-size: cover;
+  background-position: center;
   height: 380px;
   color: #fdd835;
   font-family: 'brutal_typeblack';
