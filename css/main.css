@@ -48,7 +48,7 @@ a:hover {
   color: #908d77;
 }
 
-.card-img-top {
+.col-lg-3 .card-img-top {
   height: 226px;
   object-fit: cover;
 }
