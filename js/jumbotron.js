@@ -6,8 +6,8 @@ $(document).ready(function() {
 
   // Zoom jumbotron background image on mouseover
   $('.jumbotron').mouseenter(function(e) {
-    $(this).animate({'opacity': 0.5}, 250, function() {
-      $(this).animate({'opacity': 1.0}, 1000);
+    $('.jumbotext').animate({'opacity': 0.25}, 250, function() {
+      $('.jumbotext').animate({'opacity': 1.0}, 1000);
     });
   });
 });
