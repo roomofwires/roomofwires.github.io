@@ -53,8 +53,13 @@ a:hover {
   object-fit: cover;
 }
 
-.col-lg-6 .card-img-top {
+.collab .card-img-top {
   height: 326px;
+  object-fit: cover;
+}
+
+.intro .card-img-top {
+  height: 126px;
   object-fit: cover;
 }
 
