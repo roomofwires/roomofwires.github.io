@@ -63,6 +63,10 @@ a:hover {
   object-fit: cover;
 }
 
+.intro .card-text {
+  text-align: left;
+}
+
 .inside-image {
   height: 256px;
   object-fit: cover;
