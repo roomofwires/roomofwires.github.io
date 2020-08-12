@@ -1,6 +1,6 @@
 $(document).ready(function() {
   // Randomise jumbotron background image
-  var images = ['jumbo01.jpg', 'jumbo02.jpg', 'jumbo03.jpg', 'jumbo04.jpg', 'jumbo05.jpg', 'jumbo06.jpg'];
+  var images = ['jumbo01.jpg', 'jumbo02.jpg', 'jumbo03.jpg', 'jumbo04.jpg', 'jumbo05.jpg', 'jumbo06.jpg', 'jumbo07.jpg', 'jumbo08.jpg'];
   $('.jumbotron').css({'background-image': 'linear-gradient(rgba(0,0,0,0.25), rgba(0,0,0,0.25)), url(img/'
     + images[Math.floor(Math.random() * images.length)] + ')'});
 
