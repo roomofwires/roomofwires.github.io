@@ -64,7 +64,13 @@ a:hover {
 }
 
 .intro .card-text {
-  text-align: left;
+  z-index: 1;
+  position: absolute;
+  font-size: 1.0em;
+  left: 0px;
+  bottom: 0px;
+  padding: 16px;
+  text-align: right;
 }
 
 .inside-image {
