@@ -5,6 +5,8 @@ $(document).ready(function() {
     $(this).attr('src', sourceFile);
     var video = this.parentElement;
     video.load();
+    video.playbackRate = 0.75;
+    video.play();
   });
 
   // Zoom jumbotron background image on mouseover
