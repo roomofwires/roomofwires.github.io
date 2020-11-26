@@ -59,7 +59,7 @@ a:hover {
 }
 
 .intro .card-img-top {
-  height: 156px;
+  height: 178px;
   object-fit: cover;
 }
 
@@ -67,7 +67,7 @@ a:hover {
   z-index: 1;
   position: absolute;
   font-size: 1.1em;
-  width: 75%;
+  width: 80%;
   left: 0px;
   bottom: 0px;
   padding: 16px;
