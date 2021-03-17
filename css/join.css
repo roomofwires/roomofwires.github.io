@@ -1,0 +1,34 @@
+html {
+  height: 100%;
+}
+
+body {
+  background: url('../img/jumbo06.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  height: 100%;
+}
+
+@font-face {
+  font-family: 'brutal_typeblack';
+  src: url('../fonts/brutal_type_black-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+#mc_embed_signup {
+  background: rgba(24, 24, 22, 0.6);
+  color: #fdd835;
+  font-family: 'brutal_typeblack';
+  clear: left;
+  width: 356px;
+  padding: 12px;
+}
+
+#mc_embed_signup input.button {
+  background-color: #fdd835;
+  color: #181816;
+  margin-top: 16px;
+}
