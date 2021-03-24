@@ -18,6 +18,17 @@ body {
   font-style: normal;
 }
 
+.brutal-gold {
+  color: #fdd835;
+  font-family: 'brutal_typeblack';
+  text-align: center;
+  margin: 16px 0 0 0;
+}
+
+a {
+  color: #fdd835;
+}
+
 #mc_embed_signup {
   background: rgba(24, 24, 22, 0.6);
   color: #fdd835;
